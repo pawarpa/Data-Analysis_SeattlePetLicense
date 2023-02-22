@@ -1,0 +1,636 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4DB260473E12D2B9FA659420987AE73D7AB63700282D101930416EFB837F240DEC12D</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* 
+from saleslt.production_product</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=SQL
+Query=select saleslt.production_pr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ProductID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int32" />
+            <Field name="Name" size="100" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="V_WString" />
+            <Field name="ProductNumber" size="25" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="V_WString" />
+            <Field name="MakeFlag" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int16" />
+            <Field name="FinishedGoodsFlag" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int16" />
+            <Field name="Color" size="15" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="V_WString" />
+            <Field name="SafetyStockLevel" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int16" />
+            <Field name="ReorderPoint" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int16" />
+            <Field name="StandardCost" scale="4" size="21" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="FixedDecimal" />
+            <Field name="ListPrice" scale="4" size="21" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="FixedDecimal" />
+            <Field name="Size" size="5" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="V_WString" />
+            <Field name="SizeUnitMeasureCode" size="3" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="WString" />
+            <Field name="WeightUnitMeasureCode" size="3" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="WString" />
+            <Field name="Weight" scale="2" size="10" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="FixedDecimal" />
+            <Field name="DaysToManufacture" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int32" />
+            <Field name="ProductLine" size="2" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="WString" />
+            <Field name="Class" size="2" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="WString" />
+            <Field name="Style" size="2" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="WString" />
+            <Field name="ProductSubcategoryID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int32" />
+            <Field name="ProductModelID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int32" />
+            <Field name="SellStartDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="DateTime" />
+            <Field name="SellEndDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="DateTime" />
+            <Field name="DiscontinuedDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="DateTime" />
+            <Field name="rowguid" size="64" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="V_String" />
+            <Field name="ModifiedDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4DB260473E12D2B9FA659420987AE73D7AB63700282D101930416EFB837F240DEC12D</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* 
+from saleslt.production_productsubcategory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=SQL
+Query=select saleslt.production_pr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ProductSubcategoryID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="Int32" />
+            <Field name="ProductCategoryID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="Int32" />
+            <Field name="Name" size="100" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="V_WString" />
+            <Field name="rowguid" size="64" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="V_String" />
+            <Field name="ModifiedDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Name" selected="True" />
+            <Field field="ProductNumber" selected="True" />
+            <Field field="Color" selected="True" />
+            <Field field="Size" selected="True" />
+            <Field field="SizeUnitMeasureCode" selected="True" />
+            <Field field="WeightUnitMeasureCode" selected="True" />
+            <Field field="ProductLine" selected="True" />
+            <Field field="Class" selected="True" />
+            <Field field="Style" selected="True" />
+            <Field field="rowguid" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ProductID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int32" />
+            <Field name="Name" size="32" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="V_String" />
+            <Field name="ProductNumber" size="10" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="String" />
+            <Field name="MakeFlag" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int16" />
+            <Field name="FinishedGoodsFlag" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int16" />
+            <Field name="Color" size="12" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="V_String" />
+            <Field name="SafetyStockLevel" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int16" />
+            <Field name="ReorderPoint" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int16" />
+            <Field name="StandardCost" scale="4" size="21" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="FixedDecimal" />
+            <Field name="ListPrice" scale="4" size="21" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="FixedDecimal" />
+            <Field name="Size" size="2" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="String" />
+            <Field name="SizeUnitMeasureCode" size="2" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="String" />
+            <Field name="WeightUnitMeasureCode" size="2" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="String" />
+            <Field name="Weight" scale="2" size="10" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="FixedDecimal" />
+            <Field name="DaysToManufacture" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int32" />
+            <Field name="ProductLine" size="1" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="String" />
+            <Field name="Class" size="1" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="String" />
+            <Field name="Style" size="1" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="String" />
+            <Field name="ProductSubcategoryID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int32" />
+            <Field name="ProductModelID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="Int32" />
+            <Field name="SellStartDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="DateTime" />
+            <Field name="SellEndDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="DateTime" />
+            <Field name="DiscontinuedDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="DateTime" />
+            <Field name="rowguid" size="36" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="String" />
+            <Field name="ModifiedDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_product.* &#xA;from saleslt.production_product" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Name" selected="True" />
+            <Field field="rowguid" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ProductSubcategoryID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="Int32" />
+            <Field name="ProductCategoryID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="Int32" />
+            <Field name="Name" size="17" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="V_String" />
+            <Field name="rowguid" size="36" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="String" />
+            <Field name="ModifiedDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productsubcategory.* &#xA;from saleslt.production_productsubcategory" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductID" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="ProductNumber" selected="True" />
+            <SelectField field="MakeFlag" selected="True" />
+            <SelectField field="FinishedGoodsFlag" selected="True" />
+            <SelectField field="Color" selected="True" />
+            <SelectField field="SafetyStockLevel" selected="True" />
+            <SelectField field="ReorderPoint" selected="True" />
+            <SelectField field="StandardCost" selected="True" />
+            <SelectField field="ListPrice" selected="True" />
+            <SelectField field="Size" selected="True" />
+            <SelectField field="SizeUnitMeasureCode" selected="True" />
+            <SelectField field="WeightUnitMeasureCode" selected="True" />
+            <SelectField field="Weight" selected="True" />
+            <SelectField field="DaysToManufacture" selected="True" />
+            <SelectField field="ProductLine" selected="True" />
+            <SelectField field="Class" selected="True" />
+            <SelectField field="Style" selected="True" />
+            <SelectField field="ProductSubcategoryID" selected="True" />
+            <SelectField field="ProductModelID" selected="True" />
+            <SelectField field="SellStartDate" selected="True" />
+            <SelectField field="SellEndDate" selected="True" />
+            <SelectField field="DiscontinuedDate" selected="True" />
+            <SelectField field="rowguid" selected="True" />
+            <SelectField field="ModifiedDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductSubcategoryID" selected="True" />
+            <SelectField field="ProductCategoryID" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="rowguid" selected="True" />
+            <SelectField field="ModifiedDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="342" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductSubcategoryID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductSubcategoryID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ProductSubcategoryID" selected="True" rename="Right_ProductSubcategoryID" input="Right_" />
+                <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                <SelectField field="Right_rowguid" selected="True" rename="Right_rowguid" input="Right_" />
+                <SelectField field="Right_ModifiedDate" selected="True" rename="Right_ModifiedDate" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Payal\AppData\Local\Temp\Engine_10368_67ab6028f6192941839594c926ca50d2_\Engine_10368_3fb9a3171570534d9e59d1447981ca4a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Payal\AppData\Local\Temp\Engine_10368_67ab6028f6192941839594c926ca50d2_\Engine_10368_87ca5adaddd82a419395bace9b94ee40~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="438" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>4DB260473E12D2B9FA659420987AE73D7AB63700282D101930416EFB837F240DEC12D</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productcategory.ProductCategoryID,
+	saleslt.production_productcategory.ModifiedDate,
+	saleslt.production_productcategory.Name 
+from saleslt.production_productcategory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=SQL
+Query=select saleslt.production_pr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ProductCategoryID" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productcategory.ProductCategoryID,&#xA;	saleslt.production_productcategory.ModifiedDate,&#xA;	saleslt.production_productcategory.Name &#xA;from saleslt.production_productcategory" type="Int32" />
+            <Field name="ModifiedDate" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productcategory.ProductCategoryID,&#xA;	saleslt.production_productcategory.ModifiedDate,&#xA;	saleslt.production_productcategory.Name &#xA;from saleslt.production_productcategory" type="DateTime" />
+            <Field name="Name" size="100" source="File: odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||select saleslt.production_productcategory.ProductCategoryID,&#xA;	saleslt.production_productcategory.ModifiedDate,&#xA;	saleslt.production_productcategory.Name &#xA;from saleslt.production_productcategory" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductCategoryID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductCategoryID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ProductCategoryID" selected="True" rename="Right_ProductCategoryID" input="Right_" />
+                <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                <SelectField field="Right_ModifiedDate" selected="True" rename="Right_ModifiedDate" input="Right_" />
+                <SelectField field="Left_WeightUnitMeasureCode" selected="True" input="Left_" />
+                <SelectField field="Left_Weight" selected="True" input="Left_" />
+                <SelectField field="Left_Style" selected="True" input="Left_" />
+                <SelectField field="Left_StandardCost" selected="True" input="Left_" />
+                <SelectField field="Left_SizeUnitMeasureCode" selected="True" input="Left_" />
+                <SelectField field="Left_Size" selected="True" input="Left_" />
+                <SelectField field="Left_SellStartDate" selected="True" input="Left_" />
+                <SelectField field="Left_SellEndDate" selected="True" input="Left_" />
+                <SelectField field="Left_SafetyStockLevel" selected="True" input="Left_" />
+                <SelectField field="Left_rowguid" selected="True" input="Left_" />
+                <SelectField field="Left_Right_rowguid" selected="True" input="Left_" />
+                <SelectField field="Left_Right_ProductSubcategoryID" selected="True" input="Left_" />
+                <SelectField field="Left_Right_Name" selected="True" rename="Left_Right_Name" input="Left_" />
+                <SelectField field="Left_Right_ModifiedDate" selected="True" rename="Left_Right_ModifiedDate" input="Left_" />
+                <SelectField field="Left_ReorderPoint" selected="True" input="Left_" />
+                <SelectField field="Left_ProductSubcategoryID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductNumber" selected="True" input="Left_" />
+                <SelectField field="Left_ProductModelID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductLine" selected="True" input="Left_" />
+                <SelectField field="Left_ProductID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductCategoryID" selected="True" input="Left_" />
+                <SelectField field="Left_Name" selected="True" input="Left_" />
+                <SelectField field="Left_ModifiedDate" selected="True" input="Left_" />
+                <SelectField field="Left_MakeFlag" selected="True" input="Left_" />
+                <SelectField field="Left_ListPrice" selected="True" input="Left_" />
+                <SelectField field="Left_FinishedGoodsFlag" selected="True" input="Left_" />
+                <SelectField field="Left_DiscontinuedDate" selected="True" input="Left_" />
+                <SelectField field="Left_DaysToManufacture" selected="True" input="Left_" />
+                <SelectField field="Left_Color" selected="True" input="Left_" />
+                <SelectField field="Left_Class" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Payal\AppData\Local\Temp\Engine_10368_67ab6028f6192941839594c926ca50d2_\Engine_10368_6ec2f7db9ac64c4b9aed02af92abbce3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Payal\AppData\Local\Temp\Engine_10368_67ab6028f6192941839594c926ca50d2_\Engine_10368_b84421c579ca144691a35e7d00c9f8cf~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="690" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=SQL;UID=root;PWD=__EncPwd1__|||ADW_Products_Sold</File>
+          <Passwords>4DB260473E12D2B9FA659420987AE73D7AB63700282D101930416EFB837F240DEC12D</Passwords>
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=SQL
+Query=ADW_Products_Sold</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Left" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Right" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Left" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Right" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>SeattleWS_AdventureWorks</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e43fe95d-a645-4656-b5d1-1ca194b2e601" />
+      <Telemetry>
+        <PreviousWorkflowId value="32c83a64-7858-448f-8cef-f30cb34d0b12" />
+        <OriginWorkflowId value="32c83a64-7858-448f-8cef-f30cb34d0b12" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
